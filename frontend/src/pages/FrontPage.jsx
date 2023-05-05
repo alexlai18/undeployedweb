@@ -12,7 +12,9 @@ function FrontPage () {
       backgroundColor: red[300],
     },
     width: '300px',
-    height: '50px'
+    height: '50px',
+    fontFamily: 'sans-serif',
+    fontSize: '15px'
   }));
 
   useEffect(() => {
@@ -33,7 +35,7 @@ function FrontPage () {
       <br />
       <br />
       <Stack display='flex' direction='column' justifyContent='center' alignItems='center'>
-        <Typography variant='h4' fontFamily='monospace' fontWeight='bold'>Click the button to learn more about me</Typography>
+        <Typography variant='h4' fontFamily='sans-serif' fontWeight='bold'>Click the button to learn more about me!</Typography>
         <br />
         <br />
         <br />
