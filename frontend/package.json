@@ -1,6 +1,7 @@
 {
     "name": "frontend",
     "version": "0.1.0",
+    "homepage": "http://{alexlai18}.github.io/{alexlai18.github.io}",
     "private": true,
     "dependencies": {
         "@emotion/react": "^11.10.8",
@@ -20,7 +21,9 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
-        "coverage": "npm run test -- --watchAll=false --coverage"
+        "coverage": "npm run test -- --watchAll=false --coverage",
+        "predeploy" : "npm run build",
+        "deploy" : "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
